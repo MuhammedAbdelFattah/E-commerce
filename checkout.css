@@ -1,0 +1,412 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+/* start header */
+header {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px 1px #ddd0;
+}
+/* start header left */
+header .head-left {
+  position: relative;
+}
+
+header .head-left input {
+  border: none;
+  outline: none;
+  /* padding: 15px; */
+  padding-left: 56px;
+  font-size: 16px;
+  border-radius: 15px;
+  width: 180px;
+  transition: all .3s ease-in;
+}
+
+header .head-left i {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  padding-left: 5px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+header .head-left input:focus{
+  transform: translate(-15px, 0);
+}
+/* end header left */
+/* start header middle */
+.head-middle a {
+  text-decoration: none;
+  padding: 4px 7px;
+  border: 3px solid rgba(0, 0, 0, 0.514);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.514);
+  font-weight: bold;
+}
+/* end header middle */
+
+
+
+/* start header right */
+.head-right {
+  position: relative;
+  margin-left: 30px;
+}
+
+.head-right i {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.514);
+  font-size: 17px;
+  transition: all .2s ease-in;
+}
+
+.head-right i:hover {
+  color: black;
+}
+
+.head-right p {
+  position: absolute;
+  top: -17px;
+  right: -12px;
+  font-size: 12px;
+  color: white;
+  background-color: #e52ae5;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.head-right p:hover {
+  cursor: pointer;
+}
+/* end header right */
+
+
+
+/* start navbr */
+.navbar {
+  width: 100%;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: all .3s ease-in;
+}
+
+.navbar a:hover {
+  color: #7e067ed3;
+}
+/* end navbar */
+
+/* start section one */
+.section-one {
+  width: 100%;
+  background-color: rgb(216 216 216 / 30%);
+  padding: 25px 100px;
+}
+
+.section-one .violet {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.section-one .black {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 5px;
+  color: black;
+  padding-left: 5px;
+}
+/* end section one */
+
+/* start section two */
+.section-two {
+  width: 100%;
+  padding: 70px;
+}
+
+.section-two .return {
+  width: 100%;
+  padding: 30px;
+  border: 2px solid #eee;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.section-two .return p {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 15px;
+}
+
+.section-two .return p a {
+  text-decoration: none;
+  color: #8f1b8f;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+/* start forms */
+.section-two .forms {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.section-two .forms .form-left {
+  width: 49%;
+  padding-right: 2%;
+}
+
+.section-two .forms .form-left h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-two .forms .form-left legend {
+  border: 2px solid #eee;
+  border-radius: 4px;
+  padding: 40px 35px;
+} 
+
+.section-two .forms .form-left legend form label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 47%;
+}
+
+.section-two .forms .form-left legend form select {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgb(226, 224, 224);
+  outline: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-left legend form .name-con {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.section-two .forms .form-left legend form .name-con .first {
+  width: 48%;
+}
+
+.section-two .forms .form-left legend form .name-con .last {
+  width: 48%;
+}
+
+.section-two .forms .form-left legend form .name-con input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgb(226, 224, 224);
+  outline: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-left legend form .full-w input {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid rgb(226, 224, 224);
+  outline: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-left legend form .last-in {
+  margin-bottom: 30px;
+}
+
+.section-two .forms .form-left legend form .check {
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-left legend form .text-area {
+  width: 100%;
+}
+
+.section-two .forms .form-left legend form .text-area textarea {
+  width: 100%;
+  outline: none;
+  border: 2px solid rgb(226, 224, 224);
+  padding: 5px;
+}
+/* end form left */
+/* start form right */
+.section-two .forms .form-right {
+  width: 49%;
+}
+
+.section-two .forms .form-right h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.section-two .forms .form-right .coupon {
+  width: 100%;
+  border: 2px solid rgb(226, 224, 224);
+  padding: 40px;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.section-two .forms .form-right .coupon p {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.788);
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-right .coupon input {
+  width: 50%;
+  padding: 15px;
+  border: 2px solid rgb(226, 224, 224);
+  outline: none;
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.section-two .forms .form-right .coupon button {
+  position: absolute;
+  z-index: 2;
+  font-variant: small-caps;
+  padding: 15px 19px;
+  border: none;
+  outline: none;
+  color: violet;
+  background-color: #790579;
+  font-size: 12px;
+  border-radius: 2px;
+  font-variant: small-caps;
+  transition: all .5s ease-out;
+  margin-left: 0;
+  position: absolute;
+  bottom: 41px;
+  right: 226px;
+  border: 2px solid #790579;
+}
+
+.section-two .forms .form-right .coupon button:hover {
+  transform: translate(-2px, -2px); 
+  box-shadow:  1px 3px 5px #3d043d;
+  cursor: pointer;
+}
+
+.section-two .forms .form-right .total {
+  width: 100%;
+  border: 2px solid rgb(226, 224, 224);
+  padding: 40px;
+}
+
+.section-two .forms .form-right .total .one {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(226, 224, 224);
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.section-two .forms .form-right .total .one .left {
+  width: 100%;
+  font-weight: bold;
+}
+
+.section-two .forms .form-right .total .one .right {
+  width: 60%;
+  font-weight: bold;
+}
+
+.section-two .forms .form-right .total .one span {
+  color: rgba(0, 0, 0, 0.747);
+}
+
+
+.section-two .forms .form-right .total .pay {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  border: 2px solid rgb(226, 224, 224);
+  outline: none;
+  border-radius: 4px;
+  color: #790579;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-two .forms .form-right .total .mar {
+  margin-top: 60px;
+}
+
+.section-two .forms .form-right .total .pay a {
+  text-decoration: none;
+  color: #8f1b8f;
+}
+
+.section-two .forms .form-right .total .button {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.section-two .forms .form-right .total .button button {
+  width: 100%;
+  padding: 20px;
+  font-variant: small-caps;
+  border: none;
+  outline: none;
+  color: violet;
+  background-color: #790579;
+  font-size: 16px;
+  border-radius: 4px;
+  font-variant: small-caps;
+  transition: all .5s ease-out;
+}
+
+.section-two .forms .form-right .total .button button a {
+  text-decoration: none;
+  color: white;
+}
+
+.section-two .forms .form-right .total .button button:hover {
+  transform: translate(-2px, -2px); 
+  box-shadow:  1px 3px 5px #3d043d;
+  cursor: pointer;
+}

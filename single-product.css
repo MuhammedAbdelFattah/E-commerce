@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+}
+
+/* start header */
+header {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  box-shadow: 0 0 2px 1px #ddd0;
+}
+/* start header left */
+header .head-left {
+  position: relative;
+}
+
+header .head-left input {
+  border: none;
+  outline: none;
+  /* padding: 15px; */
+  padding-left: 56px;
+  font-size: 16px;
+  border-radius: 15px;
+  width: 180px;
+  transition: all .3s ease-in;
+}
+
+header .head-left i {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  padding-left: 5px;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+header .head-left input:focus{
+  transform: translate(-15px, 0);
+}
+/* end header left */
+/* start header middle */
+.head-middle a {
+  text-decoration: none;
+  padding: 4px 7px;
+  border: 3px solid rgba(0, 0, 0, 0.514);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.514);
+  font-weight: bold;
+}
+/* end header middle */
+
+
+
+/* start header right */
+.head-right {
+  position: relative;
+  margin-left: 30px;
+}
+
+.head-right i {
+  padding-left: 10px;
+  color: rgba(0, 0, 0, 0.514);
+  font-size: 17px;
+  transition: all .2s ease-in;
+}
+
+.head-right i:hover {
+  color: black;
+}
+
+.head-right p {
+  position: absolute;
+  top: -17px;
+  right: -12px;
+  font-size: 12px;
+  color: white;
+  background-color: #e52ae5;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.head-right p:hover {
+  cursor: pointer;
+}
+/* end header right */
+
+
+
+/* start navbr */
+.navbar {
+  width: 100%;
+  padding: 22px 0;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  transition: all .3s ease-in;
+}
+
+.navbar a:hover {
+  color: #7e067ed3;
+}
+/* end navbar */
+
+/* start section one */
+.section-one {
+  width: 100%;
+  background-color: rgb(216 216 216 / 30%);
+  padding: 25px 100px;
+}
+
+.section-one .violet {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.section-one .black {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 5px;
+  color: black;
+  padding-left: 5px;
+}
+/* end section one */
+
+/* start section two */
+.section2 {
+  width: 100%;
+  min-height: 500px;
+  border-bottom: 1px solid #eee;
+}
+
+.section2 .container {
+  width: 100%;
+  padding: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section2 .container div {
+  width: 38%;
+}
+
+.section2 .container div img {
+  width: 100%;
+}
+
+.section2 .container div hr {
+  color: #e71fe7;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 30px;
+  margin-bottom: 5px;
+  border-top: 2px solid rgb(145, 33, 145);
+}
+
+.section2 .container div h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section2 .container div p {
+  color: rgba(0, 0, 0, 0.651);
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.section2 .container div .price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.section2 .container div .radio {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.section2 .container div .radio label {
+  color: rgba(0, 0, 0, 0.911);
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.section2 .container div form .num {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.section2 .container div form button {
+  padding: 8px;
+  border: 1px solid #480d5fe8;
+  border-radius: 3px;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.section2 .container div form button:hover {
+  background-color: #480d5fe8;
+  color: white;
+  transform: translate(-1px, -1px);
+  box-shadow: 0px 0px 1px 1px #480d5fe8;
+}
+
+.section2 .container div form input[type=text] {
+  width: 50px;
+  padding: 7px;
+  margin-right: -5px;
+  margin-left: -5px;
+  text-align: center;
+}
+
+.section2 .container div form .cart {
+  margin-top: 15px;
+}
+
+.section2 .container div form .cart a {
+  text-decoration: none;
+  font-variant: small-caps;
+  display: inline-block;
+  margin-top: 15px;
+  color: black;
+  padding: 8px;
+  border: 1px solid #480d5fe8;
+  border-radius: 3px;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.section2 .container div form .cart a:hover {
+  background-color: #480d5fe8;
+  color: white;
+  background-color: #480d5fe8;
+  color: white;
+  transform: translate(-1px, -1px);
+  box-shadow: 0px 0px 1px 1px #480d5fe8;
+}
+/* end section two */
+
+/* start section three */
+.section-four {
+  width: 100%;
+  height: 550px;
+  background-color: rgb(241, 241, 241);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-four .hr {
+  text-align: center;
+  padding-top: 40px;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+}
+
+.section-four .hr hr {
+  color: #e71fe7;
+  font-size: 20px;
+  font-weight: bolder;
+  border-top: 2px solid rgb(145, 33, 145);
+
+}
+
+.section-four .title {
+  text-align: center;
+  padding-top: 10px ;
+}
+
+.section-four .title {
+  font-weight: bold;
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section-four .products {
+  width: 100%;
+  margin-top: 25px;
+  padding: 0 55px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.section-four .product {
+  width: 23%;
+  height: 320px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 2px 1px #ddd0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.section-four .product img {
+  width: 100%;
+  height: 65%;
+}
+
+.section-four .products .product h3 {
+  font-size: 15px;
+  color: #b304b3;
+  margin-top: 21px;
+}
+
+.section-four .product h3:hover{
+  color: #790579;
+  cursor: pointer;
+}
+
+.section-four .products .product p {
+  color: #0000007d;
+  font-size: 13px;
+  line-height: 2em;
+}
+
+.section-four .products .product span {
+  color: #b304b3;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.arrow {
+  width: 100%;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+}
+
+.arrow i {
+  color: rgba(0, 0, 0, 0.418);
+  padding: 0 15px;
+  transition: all .4s ease-in;
+  cursor: pointer;
+}
+
+.arrow i:hover {
+  color: black;
+}
+/* end section four */
+
+/* start footer */
+footer {
+  width: 100%;
+}
+
+.footer {
+  padding: 50px;
+  padding-left: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .common {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.footer .two {
+  width: 50%;
+  display: flex;
+}
+
+.footer .right ul {
+  list-style-type: none;
+  line-height: 1.9em;
+  color: #0000009f;
+  font-size: smaller;
+}
+
+
+.footer .right ul .bold {
+  display: inline-block;
+  color: black;
+  margin-bottom: 15px;
+  font-weight: bolder;
+}
+
+.footer .right ul .hidden {
+  visibility: hidden;
+}
+
+.footer .middle {
+  width: 50%;
+}
+
+.footer .last {
+  width: 40%;
+}
+
+.two .middle ul a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1em;
+  color: #790579;
+}
+
+.two .middle ul a:hover {
+  color: #3d043d;
+}
+
+.two .middle ul .small {
+  font-size: 12px;
+  line-height: 1em;
+}
+
+.two .last ul .fa-location-dot {
+  margin-right: 3px;
+}
+
+.two .last li {
+  line-height: 2em;
+  cursor: pointer;
+}
+
+.two .last li::selection {
+  color: white;
+  background-color: black;
+}
+
+.two .last li i {
+  color: #790579;
+}
+
+.two .last ul .big {
+  color: black;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.two .last ul button {
+  padding: 11px 12px;
+  border: none;
+  outline: none;
+  color: violet;
+  background-color: #790579;
+  font-size: 12px;
+  border-radius: 2px;
+  font-variant: small-caps;
+  transition: all .5s ease-out;
+  margin-left: 0;
+  position: absolute;
+  bottom: 3px;
+  right: 52px;
+}
+
+.two .last ul button:hover {
+  transform: translate(-2px, -2px); 
+  box-shadow:  1px 3px 5px #3d043d;
+  cursor: pointer;
+  
+}
+
+.two .last ul .relative {
+  position: relative; 
+}
+
+.two .last ul input {
+  padding: 12px ;
+  margin-right: 0;
+  outline: none;
+  border-color: #0000007d;
+  border-width: 1px;
+  border-radius: 2px;
+}
+/* end footer */
+
+/* start copy right */
+.copy-right {
+  text-align: center;
+  margin: 30px;
+  font-size: 13px;
+  color: #0000009a;
+}
+
+.copy-right .author {
+  color: #790579;
+  font-weight: bold;
+}
+
+.copy-right .heart {
+  font-size: 15px;
+}
+/* end copy right */
